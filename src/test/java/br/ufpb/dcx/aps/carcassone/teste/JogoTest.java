@@ -611,7 +611,7 @@ public class JogoTest {
 		partida.posicionarLingote();
 		partida.posicionarSegundoLingote(t10, LESTE);
 		partida.finalizarTurno();
-		verificarRelatorioTurno(partida, "VERDE", "76S", "lingote_Posicionado");
+		verificarRelatorioTurno(partida, "VERDE", "76S", "lingote_Posicionado_e_adjacente");
     }
     /**
      * Caso de teste 28
